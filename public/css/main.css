@@ -1,0 +1,14 @@
+.form-control{
+    float: left;
+    width:100%;
+    margin: 10px;
+}
+
+input[type=file] {
+    width: 29%;
+    float: left;
+}
+
+.submitbtn {
+    margin-left: 40%;
+}

@@ -1,0 +1,16 @@
+<%- include('../includes/header.ejs') %>
+  <main>
+        <form class="product-form" action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="form-control">
+                <label for="csvfile">CSV File</label>
+                <input 
+                type="file" 
+                name="csvfile" 
+                id="csvfile" required>
+            </div>
+          
+                <button class="btn btn-primary submitbtn" type="submit"> Submit </button>
+            
+        </form>
+    </main>
+<%- include('../includes/footer.ejs') %>
